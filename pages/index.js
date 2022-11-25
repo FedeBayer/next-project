@@ -1,7 +1,7 @@
 import fetch from "isomorphic-fetch";
 import Head from "next/head";
 import Container from "../components/Container";
-import Users from "../components/users";
+import Users from "../components/Users";
 const Index = (props) => {
   return (
     <div>
