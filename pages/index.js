@@ -1,9 +1,14 @@
-import Navigation from "./components/navigation";
+import Head from "next/head";
+import Container from "../components/Container";
 const Index = () => {
   return (
     <div>
-      <Navigation />
-      <h1>Index</h1>
+      <Container>
+        <Head>
+          <title>Next.js Project - Home</title>
+        </Head>
+        <h1>Index</h1>
+      </Container>
     </div>
   );
 };
